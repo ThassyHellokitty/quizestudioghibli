@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <title>Quiz Studio Ghibli</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/ghibli1.jpg" alt="Cena de A Viagem de Chihiro">
+            <p>Bem vindo ao quiz do studio ghibli, qual filme vc gosta mais?</p>
+            <button class="btn-proximo" data-proximo="1">A Viagem de Chihiro</button>
+            <button class="btn-proximo" data-proximo="2">Meu Amigo Totoro</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/ghibli2.jpg" alt="Cena de Castelo Animado">
+            <p>Que tipo de magia você gostaria de ter?</p>
+            <button class="btn-proximo" data-proximo="3">Controlar o vento</button>
+            <button class="btn-proximo" data-proximo="4">Falar com os animais</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você escolheu viver no mundo Totoro</p>
+            <button class="btn-proximo" data-proximo="0">voltar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você ganhou o poder de controlar o vento!!</p>
+            <button class="btn-proximo" data-proximo="0">voltar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/ghibli3.jpg" alt="Cena de Princesa Mononoke">
+            <p>Vc vira o protetor das florestas com sua magia de falar com os bixinhos</p>
+            <button class="btn-proximo" data-proximo="0">voltar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
